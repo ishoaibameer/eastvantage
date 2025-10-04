@@ -1,11 +1,11 @@
-# 🧠 Eastvantage — Data Engineer Assignment Solution
+# Eastvantage — Data Engineer Assignment Solution
 
 This repository contains my solution for the **Eastvantage Data Engineer** technical assignment.  
 It demonstrates two clean approaches for extracting and transforming customer purchase data using **SQL** and **Pandas**.
 
 ---
 
-## 🚀 Problem Statement
+## Problem Statement
 Given the provided SQLite database, calculate the **total quantity of each item purchased** by customers **aged 18–35**.
 
 ### Requirements
@@ -16,7 +16,7 @@ Given the provided SQLite database, calculate the **total quantity of each item 
 
 ---
 
-## 🧩 Database Schema
+## Database Schema
 | Table | Description | Key Columns |
 |--------|--------------|--------------|
 | `customers` | Customer demographics | `customer_id`, `age` |
@@ -26,9 +26,9 @@ Given the provided SQLite database, calculate the **total quantity of each item 
 
 ---
 
-## 🧠 Approach
+## Approach
 
-### 1️⃣ SQL Solution
+### SQL Solution
 A single SQL query joins all four tables, filters customers aged 18–35, sums up valid quantities, and exports results to `output_sql.csv`.
 
 ```sql
